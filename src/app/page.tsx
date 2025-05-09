@@ -72,7 +72,7 @@ export default function Home() {
           <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
             <label
               htmlFor="email"
-              className="text-sm font-medium text-zinc-700"
+              className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
             >
               Email address
             </label>
@@ -92,7 +92,7 @@ export default function Home() {
           <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
             <label
               htmlFor="photo"
-              className="text-sm font-medium text-zinc-700"
+              className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
             >
               Your photo
               <span className="mt-0.5 block text-sm font-normal text-zinc-500">
@@ -109,7 +109,10 @@ export default function Home() {
           </div>
           {/* ROLE */}
           <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
-            <label htmlFor="role" className="text-sm font-medium text-zinc-700">
+            <label
+              htmlFor="role"
+              className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
+            >
               Role
             </label>
 
@@ -121,7 +124,7 @@ export default function Home() {
           <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
             <label
               htmlFor="country"
-              className="text-sm font-medium text-zinc-700"
+              className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
             >
               Country
             </label>
@@ -134,7 +137,7 @@ export default function Home() {
           <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
             <label
               htmlFor="timezone"
-              className="text-sm font-medium text-zinc-700"
+              className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
             >
               Timezone
             </label>
@@ -148,7 +151,10 @@ export default function Home() {
           </div>
           {/* BIO */}
           <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
-            <label htmlFor="bio" className="text-sm font-medium text-zinc-700">
+            <label
+              htmlFor="bio"
+              className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
+            >
               Bio
               <span className="mt-0.5 block text-sm font-normal text-zinc-500">
                 Write a short introduction.
@@ -197,7 +203,7 @@ export default function Home() {
           <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
             <label
               htmlFor="projects"
-              className="text-sm font-medium text-zinc-700"
+              className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
             >
               Portfolio projects
               <span className="mt-0.5 block text-sm font-normal text-zinc-500">
